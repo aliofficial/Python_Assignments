@@ -1,6 +1,6 @@
 First of all we need to import modules like fastapi, uvicorn
 
-Then I will create a decsionary in the dictionary
+Then I will create a dictionary in the dictionary
 
 After that i will create functions to upadte student data, add new student and delete student data
 
