@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "assignments"
+version = "0.1.0"
+description = ""
+authors = ["Ali Hassan <muhammadalifiverr1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+
+
+[tool.poetry.scripts]
+students = "assignments.assignment8:run_scripter"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
